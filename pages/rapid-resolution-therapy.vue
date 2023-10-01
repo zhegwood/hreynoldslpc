@@ -1,3 +1,9 @@
+<script setup>
+useHead({
+  title:
+    "Heather Reynolds - Heather Reynolds, MA, LPC, CHt, CRRTS - Rapid Resolution Therapy",
+});
+</script>
 <template>
   <h1 class="h1 mb-8">Rapid Resolution Therapy</h1>
   <PageImage class="mb-8">

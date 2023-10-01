@@ -1,3 +1,24 @@
+<script setup>
+useHead({
+  htmlAttrs: {
+    lang: "en",
+  },
+  meta: [
+    {
+      name: "description",
+      content:
+        "Heather Reynolds, MA, LPC, CHt, CRRTS. Licensed Professional Counselor. Certified Rapid Resolution Therapy Specialist.",
+    },
+  ],
+});
+onBeforeMount(() => {
+  let script = document.createElement("script");
+  script.type = "text/javascript";
+  script.async = true;
+  script.src = "//offsiteschedule.zocdoc.com/plugin/embed";
+  document.body.appendChild(script);
+});
+</script>
 <template>
   <div class="h-screen">
     <Header />

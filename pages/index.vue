@@ -1,3 +1,8 @@
+<script setup>
+useHead({
+  title: "Heather Reynolds - Heather Reynolds, MA, LPC, CHt, CRRTS - Welcome",
+});
+</script>
 <template>
   <h1 class="h1 text-center mb-6">
     Experience <span class="font-medium">significant</span> results in just a
@@ -12,7 +17,7 @@
     <div>
       <h3 class="h3 video-heading">Clara</h3>
       <div class="aspect-video">
-        <video class="w-full" controls>
+        <video class="w-full h-full" controls preload="none">
           <source
             src="~/assets/videos/RRT_Clara.mp4"
             controls=""
@@ -24,7 +29,7 @@
     <div>
       <h3 class="h3 video-heading">Grey</h3>
       <div class="aspect-video">
-        <video class="w-full" controls>
+        <video class="w-full h-full" controls preload="none">
           <source src="~/assets/videos/RRT_Grey.mp4" type="video/mp4" />
         </video>
       </div>
@@ -32,7 +37,7 @@
     <div>
       <h3 class="h3 video-heading">Melanie</h3>
       <div class="aspect-video">
-        <video class="w-full" controls>
+        <video class="w-full h-full" controls preload="none">
           <source
             src="~/assets/videos/RRT_Melanie.mp4"
             controls=""
@@ -44,7 +49,7 @@
     <div>
       <h3 class="h3 video-heading">Michael</h3>
       <div class="aspect-video">
-        <video class="w-full" controls>
+        <video class="w-full h-full" controls preload="none">
           <source
             src="~/assets/videos/RRT_Michael.mp4"
             controls=""

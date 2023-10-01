@@ -1,3 +1,8 @@
+<script setup>
+useHead({
+  title: "Heather Reynolds - Heather Reynolds, MA, LPC, CHt, CRRTS - About Me",
+});
+</script>
 <template>
   <h1 class="h1 mb-8">About Me</h1>
   <page-image class="mb-8">

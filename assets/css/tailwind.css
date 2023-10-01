@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html, body, #__nuxt {
-  @apply h-screen bg-gray-200;
+  @apply h-screen bg-gray-100;
 }
 
 hr {
@@ -11,7 +11,7 @@ hr {
 }
 
 .link {
-  @apply text-blue-500 no-underline hover:underline;
+  @apply text-blue-600 no-underline hover:underline;
 }
 
 .h1 {
