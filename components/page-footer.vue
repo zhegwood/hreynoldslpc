@@ -6,7 +6,7 @@
       <p>2480 W. 26th Ave, Ste 135-B</p>
       <p>Denver, CO 80211</p>
       <p>Call for appointment:</p>
-      <p><a href="tel:3035033545" class="link">(303) 503-3543</a></p>
+      <p><a href="tel:3035033543" class="link">(303) 503-3543</a></p>
       <p>
         <a href="mailto:hreynoldslpc@gmail.com" class="link">
           hreynoldslpc@gmail.com
