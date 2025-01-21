@@ -10,17 +10,29 @@ useHead({
       <img src="~/assets/images/flower.png" height="148" alt="flower" />
     </PageImage>
     <div class="mb-6">
-      <h2 class="h2 mb-1">RRT Pricing</h2>
+      <h2 class="h2 mb-2">RRT Pricing</h2>
+      <h3 class="h3 mb-1">Heather Reynolds, MA, LPC, CHt, CRRTS</h3>
       <p class="text mb-4">
-        Effective 5/1/23, a first session of RRT (1.5-2.5 hours) is $400.
-        Follow-up sessions (45 minutes to 90 minutes) are $250. For those
-        traveling a significant distance to meet with me or for those looking to
-        get as much as possible done in a single day, I offer full day sessions
-        (6-8 hours) for $1150.
+        A first session of RRT (1.5-2.5 hours) is $400. Follow-up sessions (45
+        minutes to 90 minutes) are $250.
       </p>
       <p class="text mb-4">
-        25% off all sessions for therapists, veterans, and first responders.
+        For those traveling a significant distance to meet with me or those
+        looking to get as much as possible done in a single day, I offer full
+        day sessions (6-8 hours) for $1150.
       </p>
+      <p class="text mb-4">RRT sessions with teens (45-90 minutes) are $200.</p>
+      <p class="text mb-4">
+        I offer 25% off first sessions for veterans, first responders, and
+        psychotherapists.
+      </p>
+      <h3 class="h3 mb-1">Julie Maerz, MA, LPC</h3>
+      <p class="text mb-4">
+        A first session of RRT (1.5-2.5 hours) is $325. Follow-up sessions (45
+        minutes to 90 minutes) are $225.
+      </p>
+      <p class="text mb-4">RRT sessions with teens (45-90 minutes) are $200.</p>
+
       <h2 class="h2 mb-1">What can I expect?</h2>
       <p class="text mb-4">
         In a first session of Rapid Resolution Therapy, I spend as much time as
