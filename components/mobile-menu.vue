@@ -1,8 +1,14 @@
 <script setup>
 const show_menu = ref(false);
+const expanded = ref(false);
 
 const toggleMenu = () => {
   show_menu.value = !show_menu.value;
+  expanded.value = false;
+};
+
+const onMeetClick = () => {
+  expanded.value = true;
 };
 </script>
 
@@ -58,7 +64,24 @@ const toggleMenu = () => {
           <NuxtLink to="/" @click="toggleMenu"> Welcome </NuxtLink>
         </li>
         <li class="py-2 px-4 hover:bg-gray-200">
+          <!--
           <NuxtLink to="/the-team" @click="toggleMenu"> Meet the Team</NuxtLink>
+          -->
+          <button class="text-right" @click="onMeetClick">
+            Meet the Team
+            <ul v-if="expanded" class="mt-2">
+              <li class="py-2 hover:bg-gray-200">
+                <NuxtLink to="/heather-reynolds" @click="toggleMenu">
+                  Heather Reynolds, MA, LPC, CHt, CRRTS
+                </NuxtLink>
+              </li>
+              <li class="py-2 hover:bg-gray-200">
+                <NuxtLink to="/julie-maerz" @click="toggleMenu">
+                  Julie Maerz, MA, LPC
+                </NuxtLink>
+              </li>
+            </ul>
+          </button>
         </li>
         <li class="py-2 px-4 hover:bg-gray-200">
           <NuxtLink to="/rapid-resolution-therapy" @click="toggleMenu">
