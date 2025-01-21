@@ -8,7 +8,7 @@ useHead({
   <div>
     <h1 class="h1 mb-8">Rapid Resolution Therapy</h1>
     <PageImage class="mb-8">
-      <img src="~/assets/images/cairn.png" alt="cairn" />
+      <img src="~/assets/images/cairn.png" height="148" alt="cairn" />
     </PageImage>
     <h2 class="h1 blue mb-4">
       If you are bothered by thoughts or feelings that you cannot get rid of,

@@ -11,6 +11,7 @@ useHead({
       <img
         src="~/assets/images/neuroptimal.jpg"
         alt="Proudly Offering Neuroptimal"
+        height="148"
       />
     </PageImage>
     <div>

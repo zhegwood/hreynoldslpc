@@ -58,7 +58,7 @@ const toggleMenu = () => {
           <NuxtLink to="/" @click="toggleMenu"> Welcome </NuxtLink>
         </li>
         <li class="py-2 px-4 hover:bg-gray-200">
-          <NuxtLink to="/about-me" @click="toggleMenu"> About </NuxtLink>
+          <NuxtLink to="/the-team" @click="toggleMenu"> Meet the Team</NuxtLink>
         </li>
         <li class="py-2 px-4 hover:bg-gray-200">
           <NuxtLink to="/rapid-resolution-therapy" @click="toggleMenu">

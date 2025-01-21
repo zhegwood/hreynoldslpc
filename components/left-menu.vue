@@ -1,3 +1,10 @@
+<script setup>
+const expanded = ref(false);
+
+const onMeetClick = () => {
+  expanded.value = !expanded.value;
+};
+</script>
 <template>
   <div class="left-menu">
     <div class="left-menu-inner rounded-xl mt-2 mb-8 p-4 pt-8">
@@ -6,22 +13,51 @@
           <NuxtLink
             to="/"
             class="block text-sm rounded mb-0.5 px-4 py-2 bg-gray-100 hover:cursor-pointer hover:bg-gray-200"
+            @click="expanded = false"
           >
             Welcome
           </NuxtLink>
         </li>
         <li>
+          <!--
           <NuxtLink
-            to="/about-me"
+            to="/the-team"
             class="block text-sm rounded mb-0.5 px-4 py-2 bg-gray-100 hover:cursor-pointer hover:bg-gray-200"
           >
-            About
+            Meet the team
           </NuxtLink>
+          -->
+          <button
+            class="block text-sm rounded mb-0.5 px-4 py-2 bg-gray-100 hover:cursor-pointer text-left w-full"
+            :class="{ 'hover:bg-gray-200': !expanded }"
+            @click="onMeetClick"
+          >
+            Meet the Team
+            <ul v-if="expanded">
+              <li>
+                <NuxtLink
+                  to="/heather-reynolds"
+                  class="block text-sm rounded mb-0.5 px-4 py-2 bg-gray-100 hover:cursor-pointer hover:bg-gray-200"
+                >
+                  Heather Reynolds, MA, LPC, CHt, CRRTS
+                </NuxtLink>
+              </li>
+              <li>
+                <NuxtLink
+                  to="/julie-maerz"
+                  class="block text-sm rounded mb-0.5 px-4 py-2 bg-gray-100 hover:cursor-pointer hover:bg-gray-200"
+                >
+                  Julie Maerz, MA, LPC
+                </NuxtLink>
+              </li>
+            </ul>
+          </button>
         </li>
         <li>
           <NuxtLink
             to="/rapid-resolution-therapy"
             class="block text-sm rounded mb-0.5 px-4 py-2 bg-gray-100 hover:cursor-pointer hover:bg-gray-200"
+            @click="expanded = false"
           >
             Rapid Resolution Therapy
           </NuxtLink>
@@ -30,6 +66,7 @@
           <NuxtLink
             to="/neuroptimal-neurofeedback"
             class="block text-sm rounded mb-0.5 px-4 py-2 bg-gray-100 hover:cursor-pointer hover:bg-gray-200"
+            @click="expanded = false"
           >
             NeurOptimal<sup>&reg;</sup> Neurofeedback
           </NuxtLink>
@@ -38,6 +75,7 @@
           <NuxtLink
             to="/testimonials"
             class="block text-sm rounded mb-0.5 px-4 py-2 bg-gray-100 hover:cursor-pointer hover:bg-gray-200"
+            @click="expanded = false"
           >
             Testimonials
           </NuxtLink>
@@ -46,6 +84,7 @@
           <NuxtLink
             to="/faq"
             class="block text-sm rounded mb-0.5 px-4 py-2 bg-gray-100 hover:cursor-pointer hover:bg-gray-200"
+            @click="expanded = false"
           >
             FAQ
           </NuxtLink>

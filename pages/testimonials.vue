@@ -10,7 +10,7 @@ useHead({
       What are clients saying about Rapid Resolution Therapy?
     </h1>
     <PageImage class="mb-8">
-      <img src="~/assets/images/eagle.png" alt="eagle" />
+      <img src="~/assets/images/eagle.png" height="148" alt="eagle" />
     </PageImage>
     <div class="mb-8">
       <p class="text mb-4">

@@ -7,7 +7,7 @@ useHead({
   <div>
     <h1 class="h1 mb-8">FAQ</h1>
     <PageImage class="mb-8">
-      <img src="~/assets/images/flower.png" alt="flower" />
+      <img src="~/assets/images/flower.png" height="148" alt="flower" />
     </PageImage>
     <div class="mb-6">
       <h2 class="h2 mb-1">RRT Pricing</h2>
