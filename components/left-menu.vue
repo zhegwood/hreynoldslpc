@@ -19,14 +19,6 @@ const onMeetClick = () => {
           </NuxtLink>
         </li>
         <li>
-          <!--
-          <NuxtLink
-            to="/the-team"
-            class="block text-sm rounded mb-0.5 px-4 py-2 bg-gray-100 hover:cursor-pointer hover:bg-gray-200"
-          >
-            Meet the team
-          </NuxtLink>
-          -->
           <button
             class="block text-sm rounded mb-0.5 px-4 py-2 bg-gray-100 hover:cursor-pointer text-left w-full"
             :class="{ 'hover:bg-gray-200': !expanded }"
@@ -90,7 +82,8 @@ const onMeetClick = () => {
           </NuxtLink>
         </li>
       </ul>
-      <div class="mb-5">
+      <div class="flex flex-col items-center justify-center">
+        <div class="text-white font-medium">New Customers</div>
         <a
           href="https://www.zocdoc.com/practice/heather-reynolds-ma-lpc-58322"
           target="_blank"
@@ -101,10 +94,20 @@ const onMeetClick = () => {
           <img
             src="https://offsiteSchedule.zocdoc.com/images/remote/rb_BookAnAppt_White_214x74.png"
             alt="Book an Appointment"
-            class="h-14 mx-auto"
+            class="h14 mx-auto"
             style="border: 0"
           />
         </a>
+        <div class="flex flex-col items-center justify-center">
+          <div class="mt-4 text-white font-medium">Existing Customers</div>
+          <iframe
+            frameborder="0"
+            height="28"
+            scrolling="no"
+            src="https://denverrapidresolutiontherapy.janeapp.com/embed/book_online"
+            width="170"
+          ></iframe>
+        </div>
       </div>
     </div>
     <a href="https://www.facebook.com/denverrapidresolution" target="_blank">
